@@ -1,9 +1,9 @@
-name: Deploy to GitHub Pages
+name: Deploy to GitHub Pages OS Aplet ME-AI 
 
 on:
   push:
     branches:
-      - master aplet
+      - master aplet 
 
 jobs:
   deploy:
