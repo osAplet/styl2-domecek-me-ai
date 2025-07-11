@@ -1,7 +1,41 @@
+/* === ME-AI echo4 stylový vizuál === */
+
 body {
-  background-color: #fdf6e3;
   font-family: 'Courier New', monospace;
-  color: #333;
-  text-align: center;
-  padding: 2em;
+  background: linear-gradient(135deg, #f0f4ff, #dbe8ff);
+  color: #222;
+  margin: 0;
+  padding: 24px;
+  line-height: 1.6;
+}
+
+/* Nadpisy */
+h1, h2 {
+  color: #3a5ca6;
+}
+
+/* Seznam slovníku */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Obrázky — erb, banner */
+img {
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  border-radius: 12px;
+  max-width: 100%;
+}
+
+/* Spodní stylová hlídka */
+footer {
+  font-size: 0.8em;
+  opacity: 0.9;
+  background: rgba(255,255,255,0.5);
+  padding: 4px 8px;
+  border-radius: 8px;
+  color: #555;
 }
